@@ -1,0 +1,7 @@
+mysqld -uroot -proot;
+
+show variables;  ---查看max_connection
+show status;    ----查看thread_
+select @@global.max_connections;
+
+set global max_connections=500; 
